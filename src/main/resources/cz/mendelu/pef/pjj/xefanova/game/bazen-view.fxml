@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.mendelu.pef.pjj.xefanova.game.BazenController">
+    <children>
+        <ImageView fitHeight="573.0" fitWidth="963.0" layoutX="-211.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/5.png" />
+            </image>
+        </ImageView>
+        <TextArea fx:id="textWindow" editable="false" layoutX="178.0" layoutY="99.0" prefHeight="109.0" prefWidth="300.0" styleClass="shadow" stylesheets="@values/style.css" text="Only luck will help you defeat the Swamp!&#10;First click on the swamp dice,&#10;and then on your own.&#10;Whose value will be greater - he won!&#10;" wrapText="true">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </TextArea>
+        <ImageView fx:id="kubikS" fitHeight="96.0" fitWidth="97.0" layoutX="50.0" layoutY="272.0" onMouseClicked="#rollDiceS" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@pictures/kubik - 4.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="Swamp" alignment="CENTER" layoutX="20.0" layoutY="227.0" prefHeight="37.0" prefWidth="155.0" text="Swamp:">
+            <font>
+                <Font name="System Bold" size="29.0" />
+            </font>
+        </Label>
+        <Label fx:id="You" alignment="CENTER" layoutX="312.0" layoutY="227.0" prefHeight="29.0" prefWidth="176.0" text="You:" textAlignment="CENTER">
+            <font>
+                <Font name="System Bold" size="32.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="67.0" layoutY="14.0" prefHeight="55.0" prefWidth="365.0" text="Can you beat the swamp?" textFill="WHITE">
+            <font>
+                <Font name="System Bold" size="29.0" />
+            </font>
+        </Label>
+      <ImageView fx:id="kubikY" fitHeight="96.0" fitWidth="97.0" layoutX="352.0" layoutY="272.0" onMouseClicked="#rollDiceY" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/kubik - 3.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="133.0" fitWidth="135.0" layoutX="13.0" layoutY="86.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pictures/bazen.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="winLose" alignment="CENTER" layoutX="178.0" layoutY="209.0" prefHeight="194.0" prefWidth="162.0" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
