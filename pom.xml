@@ -60,9 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>
-                                cz.mendelu.pef.pjj.xefanova.game.game/cz.mendelu.pef.pjj.xefanova.game.HelloApplication
-                            </mainClass>
+                            <mainClass>cz.mendelu.pef.pjj.xefanova.game.HelloApplication</mainClass>
                         </configuration>
                     </execution>
                 </executions>

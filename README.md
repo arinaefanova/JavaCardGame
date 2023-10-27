@@ -20,15 +20,21 @@ Installation and Usage
 
 1. Requirements:
    
-    Java Development Kit (JDK)
+    Java Development Kit (JDK) - Version: 18 or higher
+    Apache Maven - Version: 3.8.1 or higher
    
-    Apache Maven
-   
-3. Clone the Repository:
+2. Clone the Repository:
    
    git clone https://github.com/xxefex/JavaCardGame
    
    cd JavaCardGame
+
+3. Compile and Run:
+
+   mvn clean install
+
+   mvn javafx:run
+
 
 Contributing
 
