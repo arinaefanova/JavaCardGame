@@ -29,7 +29,7 @@ and Scene Builder was employed for designing the game's graphical user interface
 ```
 ### 2. Clone the Repository:
 ```
-   git clone https://github.com/xxefex/JavaCardGame.git
+   git clone https://github.com/arinaefanova/JavaCardGame.git
 ```
 ```
    cd JavaCardGame
