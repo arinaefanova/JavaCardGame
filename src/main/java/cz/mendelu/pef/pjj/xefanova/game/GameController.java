@@ -182,17 +182,18 @@ public class GameController  {
     FileInputStream inputStream11 = new FileInputStream(blueDiamond1.getAdresaImage());
     Image blueDiamond = new Image(inputStream11);
 
+    String basePath = "src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/";
 
-    FileInputStream inputStream1 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//3.png");
+    FileInputStream inputStream1 = new FileInputStream(basePath + "3.png");
     Image blueCard = new Image(inputStream1);
 
-    FileInputStream inputStream2 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//redDiamond.png");
+    FileInputStream inputStream2 = new FileInputStream(basePath + "redDiamond.png");
     Image redDiamondInv = new Image(inputStream2);
 
-    FileInputStream inputStream3 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//yellowDiamond.png");
+    FileInputStream inputStream3 = new FileInputStream(basePath + "yellowDiamond.png");
     Image yellowDiamondInv = new Image(inputStream3);
 
-    FileInputStream inputStream4 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//blueDiamond.png");
+    FileInputStream inputStream4 = new FileInputStream(basePath + "blueDiamond.png");
     Image blueDiamondInv = new Image(inputStream4);
 
     @FXML

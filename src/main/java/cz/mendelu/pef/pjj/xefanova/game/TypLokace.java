@@ -5,14 +5,14 @@ import java.util.List;
 import java.util.Random;
 
 public enum TypLokace {
-    SKALA("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//skala.png"),
-    BAZEN("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//bazen.png"),
-    CESTA("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//cesta.png"),
-    RED_DIAMOND("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//redKrystal.png"),
-    YELLOW_DIAMOND("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//yellowKrystal.png"),
-    BLUE_DIAMOND("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//blueKrystal.png"),
-    FIRE("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//ohen.png"),
-    SPIDER("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//pavouk.png");
+    SKALA("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/skala.png"),
+    BAZEN("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/bazen.png"),
+    CESTA("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/cesta.png"),
+    RED_DIAMOND("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/redKrystal.png"),
+    YELLOW_DIAMOND("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/yellowKrystal.png"),
+    BLUE_DIAMOND("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/blueKrystal.png"),
+    FIRE("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/ohen.png"),
+    SPIDER("src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/pavouk.png");
 
     TypLokace(String adresaImage) {
         this.adresaImage = adresaImage;

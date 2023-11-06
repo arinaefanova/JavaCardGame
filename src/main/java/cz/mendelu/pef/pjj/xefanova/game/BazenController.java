@@ -32,17 +32,24 @@ public class BazenController {
     @FXML
     private Label winLose;
 
-    FileInputStream inputStream1 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 1.png");
+    String basePath = "src/main/resources/cz/mendelu/pef/pjj/xefanova/game/pictures/";
+
+    FileInputStream inputStream1 = new FileInputStream(basePath + "kubik - 1.png");
     Image kubik1 = new Image(inputStream1);
-    FileInputStream inputStream2 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 2.png");
+
+    FileInputStream inputStream2 = new FileInputStream(basePath + "kubik - 2.png");
     Image kubik2 = new Image(inputStream2);
-    FileInputStream inputStream3 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 3.png");
+
+    FileInputStream inputStream3 = new FileInputStream(basePath + "kubik - 3.png");
     Image kubik3 = new Image(inputStream3);
-    FileInputStream inputStream4 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 4.png");
+
+    FileInputStream inputStream4 = new FileInputStream(basePath + "kubik - 4.png");
     Image kubik4 = new Image(inputStream4);
-    FileInputStream inputStream5 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 5.png");
+
+    FileInputStream inputStream5 = new FileInputStream(basePath + "kubik - 5.png");
     Image kubik5 = new Image(inputStream5);
-    FileInputStream inputStream6 = new FileInputStream("C://Users//Arina//Desktop//Game//src//main//resources//cz//mendelu//pef//pjj//xefanova//game//pictures//kubik - 6.png");
+
+    FileInputStream inputStream6 = new FileInputStream(basePath + "kubik - 6.png");
     Image kubik6 = new Image(inputStream6);
 
     private int diceSwamp = 0;
