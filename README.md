@@ -10,7 +10,9 @@ Each tile has its own effect triggered when a player steps on it.
 The game involves elements of memory combined with player decision-making, 
 as players must decide whether to take risks or choose a safer path.
 
-![Diamond Forest](/screenshots/Diamantovy-les-ukazka.jpg)
+<p align="center">
+  <img src="/screenshots/Diamantovy-les-ukazka.jpg" alt="Diamond Forest" width="500"/>
+</p>
 
 ## Project Details
 
@@ -49,21 +51,34 @@ and Scene Builder was employed for designing the game's graphical user interface
 
 ### Menu
 
-![Game menu](/screenshots/Game_menu.png)
+<p align="center">
+  <img src="/screenshots/Game_menu.png" alt="Game menu" width="600"/>
+</p>
 
 ### Start of the game
 
-![Start game](/screenshots/Start_game.png)
+<p align="center">
+  <img src="/screenshots/Start_game.png" alt="Start game" width="600"/>
+</p>
 
 ### Process of the game
 
-![Game process](/screenshots/game_process.png)
+<p align="center">
+  <img src="/screenshots/game_process.png" alt="Game process" width="600"/>
+</p>
 
 ### Examples of game levels
 
-![Swamp level](/screenshots/swamp_level.png)
+#### Swamp Level
 
-![Rock level](/screenshots/rock_level.png)
+<p align="center">
+  <img src="/screenshots/swamp_level.png" alt="Swamp level" width="600"/>
+</p>
 
+#### Rock Level
+
+<p align="center">
+  <img src="/screenshots/rock_level.png" alt="Rock level" width="600"/>
+</p>
 
 
