@@ -3,7 +3,7 @@
 ## Overview
 
 Diamond Forest is an original Czech card game where players take on the roles of dwarves 
-venturing into a dark forest in search of 4 diamonds. 
+venturing into a dark forest in search of 3 diamonds. 
 The game is played on a variable game board composed of tiles representing the dark forest. 
 These tiles are gradually revealed, with some remaining hidden. 
 Each tile has its own effect triggered when a player steps on it. 
