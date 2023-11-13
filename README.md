@@ -10,6 +10,8 @@ Each tile has its own effect triggered when a player steps on it.
 The game involves elements of memory combined with player decision-making, 
 as players must decide whether to take risks or choose a safer path.
 
+![Diamond Forest](/screenshots/Diamantovy-les-ukazka.jpg)
+
 ## Project Details
 
 This project was created as part of my university EBC-PJ - Java Programming Language course. 
@@ -42,5 +44,26 @@ and Scene Builder was employed for designing the game's graphical user interface
 ```
    mvn javafx:run
 ```
-   
+
+## Screenshots of the game
+
+### Menu
+
+![Game menu](/screenshots/Game_menu.png)
+
+### Start of the game
+
+![Start game](/screenshots/Start_game.png)
+
+### Process of the game
+
+![Game process](/screenshots/game_process.png)
+
+### Examples of game levels
+
+![Swamp level](/screenshots/swamp_level.png)
+
+![Rock level](/screenshots/rock_level.png)
+
+
 
