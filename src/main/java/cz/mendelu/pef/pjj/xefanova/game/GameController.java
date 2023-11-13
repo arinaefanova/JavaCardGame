@@ -15,6 +15,7 @@ import javafx.stage.Stage;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Objects;
 
 import static cz.mendelu.pef.pjj.xefanova.game.Mapa.*;
 import static cz.mendelu.pef.pjj.xefanova.game.Player.Move;
@@ -224,6 +225,10 @@ public class GameController  {
             Parent root = FXMLLoader.load(getClass().getResource("/cz/mendelu/pef/pjj/xefanova/game/skala-view.fxml"));
             Stage skala = new Stage();
             skala.setScene(new Scene(root));
+            Image favicon = new Image(Objects.requireNonNull(
+                    getClass().getResourceAsStream("/cz/mendelu/pef/pjj/xefanova/game/pictures/blueDiamond.png")));
+            skala.getIcons().add(favicon);
+            skala.setTitle("Rock level");
             skala.initModality(Modality.APPLICATION_MODAL);
             skala.setResizable(false);
             skala.showAndWait();
@@ -250,6 +255,10 @@ public class GameController  {
             Parent root = FXMLLoader.load(getClass().getResource("/cz/mendelu/pef/pjj/xefanova/game/bazen-view.fxml"));
             Stage bazen = new Stage();
             bazen.setScene(new Scene(root));
+            Image favicon = new Image(Objects.requireNonNull(
+                    getClass().getResourceAsStream("/cz/mendelu/pef/pjj/xefanova/game/pictures/blueDiamond.png")));
+            bazen.getIcons().add(favicon);
+            bazen.setTitle("Swamp level");
             bazen.initModality(Modality.APPLICATION_MODAL);
             bazen.setResizable(false);
             bazen.showAndWait();
